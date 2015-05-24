@@ -3,6 +3,7 @@
 Getting and Cleaning Data
 
 Course Project
+Sunday, May 24, 2015
 Alejandro Erasso
 
 ==================================================================
@@ -26,6 +27,8 @@ and gravity. The gravitational force is assumed to have only low frequency compo
 therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of 
 561 features was obtained by calculating variables from the time and frequency domain.
 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
 ==================================================================
 
 This Code:
@@ -38,6 +41,12 @@ measurements.
 
 See CodeBook.md for the data dictionary of the output file, named "tidy_wearable_data.txt".
  
+
+Input data set:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+
 Output:
 
 tidy_wearable_data.txt
@@ -47,6 +56,8 @@ tidy_wearable_data can be read into R with read.table(header=TRUE) and "\t" sepa
 ==================================================================
 
 Credits:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
